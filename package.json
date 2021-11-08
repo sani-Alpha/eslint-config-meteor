@@ -1,6 +1,6 @@
 {
   "name": "@meteorjs/eslint-config-meteor",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Eslint configuration for Meteor",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/meteor/eslint-config-meteor#readme",
   "peerDependencies": {
-    "babel-eslint": ">= 7",
+    "@babel/eslint-parser": ">= 7",
     "eslint": ">= 3",
     "eslint-config-airbnb": ">= 13",
     "eslint-import-resolver-meteor": ">= 0.3.0",
